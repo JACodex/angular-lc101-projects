@@ -1,0 +1,6 @@
+<div>
+    <h3 style="text-decoration: underline">Favorite Links</h3>
+    <ol>
+        <li *ngFor="let link of favLinks; let i = index"><a href={{favLinks[i]}}>{{link}}</a></li>
+    </ol>
+</div>
