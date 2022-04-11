@@ -8,4 +8,10 @@ img {
 
 .photos {
    text-align: center;
+   
+}
+
+.photos img{
+   height: 50%;
+   width: 50%;
 }
