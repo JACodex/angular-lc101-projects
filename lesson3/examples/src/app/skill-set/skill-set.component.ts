@@ -11,9 +11,19 @@ export class SkillSetComponent implements OnInit {
    alternateColor: string = 'black';
    bulletType: string = 'A';
    changeColor: boolean = true;
+   fonty: boolean = false;
 
    constructor() { }
 
    ngOnInit() { }
+
+   fontyChanger(text){ 
+      this.fonty = !this.fonty
+      if(this.fonty){
+         text.innerHTML = text.innerHTML
+      }else{
+         text.innerHTML = "Text Changed"
+      }
+   }
 
 }
